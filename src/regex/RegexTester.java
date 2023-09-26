@@ -14,7 +14,7 @@ public class RegexTester {
     public void validate(String text) {
         Matcher matcher = pattern.matcher(text);
         if (matcher.matches()) {
-            System.out.println("Prawda dla tekstu" + text);
+            System.out.println("Prawda dla tekstu: " + text);
         } else {
             System.out.println("Fałsza dla tekstu: " + text);
         }
