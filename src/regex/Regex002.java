@@ -10,5 +10,6 @@ public class Regex002 {
         tester.validate("JAVa");//false
         tester.validate("J");//false
         tester.validate("aJ");//false
+
     }
 }
